@@ -13,3 +13,7 @@
 .contents{
 	padding-left: 20px;
 }
+
+.gradient{
+	background: linear-gradient(110.81078024721057deg, rgba(243, 243, 243,1) 5.957174231332358%,rgba(238, 220, 218,1) 54.19106881405563%,rgba(216, 188, 185,1) 97.83125915080527%);
+}
