@@ -1,13 +1,31 @@
 body {
-cursor: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/np_cursor_740125_000000.png),default;
+  cursor: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/np_cursor_740125_000000.png),default;
+  background: #272322;
+  color: #f8f8f2;
+}
+
+a {
+  color: #66d9ef;  /* Monokai Blue */
+  text-decoration: none;
 }
 
 .info {
-	width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "kiwi maru"
+}
+
+.links {
+  text-align: center;
 }
 
 .info tr td {
 	padding: 10px;
+}
+
+tr:hover {
+  background-color: #282828;
 }
 
 .anime {
@@ -18,6 +36,14 @@ cursor: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/np_cursor_740125_0000
 	padding-left: 20px;
 }
 
-.gradient{
-	background: linear-gradient(110.81078024721057deg, rgba(243, 243, 243,1) 5.957174231332358%,rgba(238, 220, 218,1) 54.19106881405563%,rgba(216, 188, 185,1) 97.83125915080527%);
+h2 {
+  font-family: "Nico Moji";
+}
+
+h1 {
+  font-family: "Nico Moji";
+}
+
+footer {
+  font-family: "Nico Moji";
 }
