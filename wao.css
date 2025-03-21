@@ -26,11 +26,15 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "kiwi maru"
+  font-family: "kiwi maru";
 }
 
 .links {
   text-align: center;
+}
+
+.links_content {
+  font-family: "kiwi maru";
 }
 
 .info tr td {
