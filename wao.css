@@ -2,6 +2,7 @@ body {
   cursor: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/np_cursor_740125_000000.png),default;
   background: #272322;
   color: #f8f8f2;
+  font-size: 22px;
 }
 
 @media (max-width: 600px) {
