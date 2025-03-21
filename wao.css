@@ -6,7 +6,7 @@ body {
 
 @media (max-width: 600px) {
   meta[name="viewport"]{
-    content: "width=device-width, initial-scale=1.5";
+    content: "width=device-width, initial-scale=1.2";
   }
 
   body {
