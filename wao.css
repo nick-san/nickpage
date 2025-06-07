@@ -1,9 +1,26 @@
+/* Styles for Specific Parts */
+
 body {
   cursor: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/np_cursor_740125_000000.png),default;
   background: #272322;
   color: #f8f8f2;
   font-size: 22px;
 }
+
+h1 {
+  font-family: "Nico Moji";
+}
+
+h2 {
+  font-family: "Nico Moji";
+}
+
+a {
+  color: #66d9ef;  /* Monokai Blue */
+  text-decoration: none;
+}
+
+/* Styles for Specific Type of Contents */
 
 @media (max-width: 600px) {
   meta[name="viewport"]{
@@ -16,12 +33,7 @@ body {
 
 }
 
-
-a {
-  color: #66d9ef;  /* Monokai Blue */
-  text-decoration: none;
-}
-
+/* Styles for Specific Class */
 .info {
   display: flex;
   justify-content: center;
@@ -37,14 +49,6 @@ a {
   font-family: "kiwi maru";
 }
 
-.info tr td {
-	padding: 10px;
-}
-
-tr:hover {
-  background-color: #282828;
-}
-
 .anime {
 	padding: 10px;
 }
@@ -53,14 +57,22 @@ tr:hover {
 	padding-left: 20px;
 }
 
-h2 {
-  font-family: "Nico Moji";
+.okotowari {
+  font-size: 16px;
 }
 
-h1 {
+.inspired-by {
   font-family: "Nico Moji";
+  font-size: 22px;
 }
 
-footer {
-  font-family: "Nico Moji";
+
+/* Styles for Tables */
+
+.info tr td {
+	padding: 10px;
+}
+
+tr:hover {
+  background-color: #282828;
 }
